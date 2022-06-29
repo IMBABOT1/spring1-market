@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+<form method="get" th:action="@{/products/edit1}">
+    <div class="form-group col-md-6">
+        <label for="titleInput">Title</label>
+        <input class="form-control"  name="title" type="text" id="titleInput">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="price">price</label>
+        <input class="form-control"  name="price" type="number" id="price">
+    </div>
+    <button class="btn btn-primary" type="submit">Применить</button>
+</form>
+
+</body>
+</html>
